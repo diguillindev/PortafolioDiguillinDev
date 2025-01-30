@@ -1,0 +1,46 @@
+# WordPress Core
+/wp-admin/
+/wp-content/index.php
+/wp-content/languages/
+/wp-content/plugins/index.php
+/wp-content/themes/index.php
+/wp-includes/
+/index.php
+/license.txt
+/readme.html
+/wp-*.php
+/xmlrpc.php
+
+# Configuración sensible
+wp-config.php
+
+# Excluir temas y plugins predeterminados
+/wp-content/themes/twenty*/      # Ignora temas Twenty
+/wp-content/plugins/hello.php    # Ignora plugin Hello Dolly
+
+# Excluir subidas de medios
+/wp-content/uploads/
+
+# Archivos de caché y temporales
+/wp-content/cache/
+/wp-content/et-cache/            # Caché de Divi
+/wp-content/debug.log
+*.log
+
+# Archivos del servidor
+/.htaccess
+/.maintenance
+
+# Excluir backups y exportaciones
+*.sql
+*.tar.gz
+*.zip
+
+# Configuración de IDEs y sistemas
+.vscode/
+.DS_Store
+.idea/
+*.swp
+
+# Git (no es necesario ignorar el propio .gitignore)
+# .gitignore
